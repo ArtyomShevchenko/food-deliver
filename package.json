@@ -1,5 +1,5 @@
 {
-	"homepage": "http://artyomshevchenko.github.io/food-deliver",
+	"homepage": "https://artyomshevchenko.github.io/food-deliver/",
 	"name": "food-delivery-app",
 	"version": "0.1.0",
 	"private": true,
@@ -17,7 +17,7 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"predeploy": "npm rub build",
+		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
