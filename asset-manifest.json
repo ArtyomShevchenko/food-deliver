@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/food-deliver/static/css/main.31d6cfe0.css",
+    "main.js": "/food-deliver/static/js/main.ecaeca17.js",
+    "index.html": "/food-deliver/index.html",
+    "main.ecaeca17.js.map": "/food-deliver/static/js/main.ecaeca17.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.ecaeca17.js"
+  ]
+}
