@@ -41,6 +41,12 @@ button:active {
     background-color: lightblue;
 }
 
+img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
 h2, li {
     padding: 1.5rem 0;
 }
@@ -78,4 +84,41 @@ main nav {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+
+.shop-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+.product {
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border: 0.2rem solid lightblue;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    transition: all 0.2s;
+}
+
+.product:hover {
+    background-color: lightcyan;
+    border-color: lightskyblue;
+}
+
+.product:hover button {
+    border-color: lightskyblue;
+}
+
+.product span {
+    font-weight: bold;
 }

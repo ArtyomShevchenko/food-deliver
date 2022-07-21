@@ -1,6 +1,9 @@
+import React from "react";
 import { Link } from "react-router-dom";
+import Context from "../Context";
 
 const Header = () => {
+
     return (
         <header>
             <div className="wrapper">
@@ -9,7 +12,7 @@ const Header = () => {
                         <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <Link to="/ShopingCart">Shoping cart</Link>
+                        <Link to="/basket">Shoping cart</Link>
                     </li>
                 </ul>
             </div>
