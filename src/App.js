@@ -6,11 +6,10 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./components/Home"
 import Basket from "./components/Basket";
+import ButtonToTop from "./components/ButtonToTop";
 import Error from "./components/Error";
 
 function App() {
-	const [length, setLength] = React.useState(0)
-
 	const contextData = {
 		data: [],
 		length: 0,
@@ -23,11 +22,13 @@ function App() {
 				<Routes>
 					<Route>
 						<Route path="/" element={<Home />} />
+						<Route path="/food-deliver" element={<Home />} />
 						<Route path="/basket" element={<Basket />} />
 						<Route path="*" element={<Error />} />
 					</Route>
 				</Routes>
 				<Footer />
+				<ButtonToTop />
 			</div>
 		</Context.Provider>
 	);

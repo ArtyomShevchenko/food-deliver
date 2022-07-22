@@ -19,7 +19,7 @@ const Shops = () => {
 			<div className="wrapper">
 				<div>
 					<h2>Shops</h2>
-					<nav>
+					<nav className="shops-list">
 						{Object.keys(db).map((element, index) => {
 							return (
 								<button onClick={() => handleChoseChops(element)} key={index}>{db[element].id}</button>
