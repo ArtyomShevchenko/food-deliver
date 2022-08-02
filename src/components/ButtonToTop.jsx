@@ -11,8 +11,6 @@ const ButtonToTop = () => {
 		};
 	})
 
-	// ----
-
 	const handleClick = () => {
 		window.scrollTo({
 			top: 0,
